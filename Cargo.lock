@@ -172,6 +172,7 @@ dependencies = [
  "approx",
  "num-traits",
  "rstar",
+ "serde",
 ]
 
 [[package]]
@@ -179,6 +180,7 @@ name = "geo_boolean_difference_panic"
 version = "0.1.0"
 dependencies = [
  "geo",
+ "geo-types",
  "serde",
  "serde_any",
 ]

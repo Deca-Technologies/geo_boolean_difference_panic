@@ -6,5 +6,10 @@ authors = ["Deca Technologies <info@decatechnologies.com>"]
 
 [dependencies]
 geo = "0.23.1"
-serde = "1.0.143"
+serde = "1.0.152"
 serde_any = "0.5.0"
+
+[dependencies.geo-types]
+default-features = false
+features = ["serde"]
+version = "0.7.8"
