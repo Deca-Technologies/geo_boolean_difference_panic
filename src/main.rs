@@ -7,11 +7,7 @@ fn main() {
 
     // Does not fail on every single call, so run continuously until failure is hit
     for _i in 0..1_000 {
-        let failing_subjects = MultiPolygon(
-            subjects.clone().into_iter().collect::<Vec<Polygon>>(),
-        );
-
-        BooleanOps::difference(&failing_subjects, &clip);
+        BooleanOps::difference(&subjects, &clip);
     }
 }
 
