@@ -1,0 +1,10 @@
+[package]
+name = "geo_boolean_difference_panic"
+version = "0.1.0"
+edition = "2021"
+authors = ["Deca Technologies <info@decatechnologies.com>"]
+
+[dependencies]
+geo = "0.23.1"
+serde = "1.0.143"
+serde_any = "0.5.0"
