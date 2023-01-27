@@ -14,3 +14,8 @@ About half of the time, the BooleanOps::difference function fails to difference 
 - Panic does not occur on every call and only happens about 50% of the time
 - Adding more polygons to the multipolygon will sometimes cause a success
 - Only occurs on large multipolygons diff'ed by a multipolygon made up of a single large polygon
+
+### Additional Test Case
+
+- Another test is included in the tests folder with multi-polygons that overlap each other.
+- The difference operation is run with the above inputs which fails every-time throwing a "Segment not found" error.
